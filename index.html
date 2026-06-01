@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HEHE fidgets</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #111;
+      color: white;
+      padding: 20px;
+    }
+
+    .product {
+      background: #222;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 10px;
+      width: 250px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Mine Produkter</h1>
+
+<div id="products"></div>
+
+<script>
+fetch('products.json')
+.then(res => res.json())
+.then(products => {
+
+  const container = document.getElementById('products');
+
+  products.forEach(product => {
+
+    container.innerHTML += `
+      <div class="product">
+        <img src="${product.image}">
+        <h2>${product.name}</h2>
+        <p>${product.price}</p>
+        <p>${product.description}</p>
+        <p>${product.available ? "Tilgjengelig" : "Utsolgt"}</p>
+      </div>
+    `;
+  });
+
+});
+</script>
+
+</body>
+</html>
