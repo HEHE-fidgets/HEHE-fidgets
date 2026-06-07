@@ -16,8 +16,15 @@
   {
     "name": "Stressknappen",
     "price": "30 kr",
-    "description": "Stressknappen er en morsom og tilfredsstillende skrivebordsdings som gir deg en rask måte å koble av på. Med et enkelt trykk får du den velkjente følelsen av en stor tastaturknapp – perfekt når du trenger en liten pause fra jobb, studier eller gaming..",
+    "description": "Stressknappen er en morsom og tilfredsstillende skrivebordsdings som gir deg en rask måte å koble av på. Med et enkelt trykk får du følelsen av en stor tastaturknapp – perfekt når du trenger en liten pause.",
     "available": false,
     "image": "https://i.ibb.co/VWPQVvqm/aeb0d85a-532a-4119-b39a-b8c25f6ced89.avif"
+  },
+  {
+    "name": "heksagon fidget",
+    "price": "30 kr",
+    "description": "Heksagon Fidget er en kul og tilfredsstillende fidget-leke med et unikt sekskantdesign. Den kan bøyes, vries og beveges på mange forskjellige måter, noe som gjør den morsom å leke med og avslappende å bruke. Perfekt for å holde hendene opptatt, redusere stress eller bare ha det gøy.",
+    "available": false,
+    "image": "https://i.ibb.co/9mSvkzPj/a1de16c4-fac3-4979-b363-c8c8f12bb576.avif"
   }
 ]
